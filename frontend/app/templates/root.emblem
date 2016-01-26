@@ -10,6 +10,10 @@
       .meta
         time.published
           = article.formattedCreatedAt
+          p.geolocation
+            i.fa.fa-map-marker
+            |&nbsp;
+            = article.city
     = link-to 'article' article.id class='image featured'
       img src=article.image
     p

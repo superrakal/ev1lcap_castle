@@ -8,6 +8,8 @@ class Article
   field :text
   field :preview_text
   field :category
+  field :city
+
   has_mongoid_attached_file :image,
                             :styles => {
                                 :original => ['840x340', :jpg]

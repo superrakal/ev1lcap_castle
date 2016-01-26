@@ -7,6 +7,7 @@ Article = DS.Model.extend
   preview_text: DS.attr 'string'
   category:     DS.attr 'string'
   image:        DS.attr 'string'
+  city:         DS.attr 'string'
   created_at:   DS.attr 'date'
 
   formattedCreatedAt: (->

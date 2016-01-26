@@ -24,6 +24,7 @@ RailsAdmin.config do |config|
       field :preview_text
       field :text, :ck_editor
       field :category
+      field :city
       field :image
     end
   end

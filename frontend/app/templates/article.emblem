@@ -8,6 +8,10 @@ article.post
     .meta
       time.published
         = article.formattedCreatedAt
+        p.geolocation
+          i.fa.fa-map-marker
+          |&nbsp;
+          = article.city
   a.image.featured
     img src=article.image
   p.text
