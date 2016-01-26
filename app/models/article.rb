@@ -13,6 +13,6 @@ class Article
                                 :original => ['840x340', :jpg]
                             }
   validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
-  validates_attachment_size :image, :less_than => 10.megabyte
+  validates_attachment_size :image, :less_than => 10.megabytes
 
 end

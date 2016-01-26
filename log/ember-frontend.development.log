@@ -23147,3 +23147,20 @@ Slowest Trees (cumulative)                    | Total (avg)
 Concat: Vendor (1)                            | 1733ms              
 CoffeeScriptFilter (2)                        | 126ms (63 ms)       
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2201ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1582ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1582ms              
+CoffeeScriptFilter (2)                        | 111ms (55 ms)       
+

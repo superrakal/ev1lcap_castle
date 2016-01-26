@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/babel-output_path-gW95AkiQ.tmp/frontend/app.js

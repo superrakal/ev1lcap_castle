@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-export-application-global/app/initializers/export-application-global.js

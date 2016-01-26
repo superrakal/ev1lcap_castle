@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/tree_merger-tmp_dest_dir-255KVfxC.tmp/bower_components/ember-cli-test-loader/test-loader.js

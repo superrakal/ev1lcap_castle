@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-infinity/node_modules/ember-version-is/addon/index.js

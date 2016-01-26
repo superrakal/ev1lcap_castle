@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/tests/unit/routes/404-test.coffee

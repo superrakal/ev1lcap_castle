@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/tests/unit/routes/messages/besit/index-test.coffee

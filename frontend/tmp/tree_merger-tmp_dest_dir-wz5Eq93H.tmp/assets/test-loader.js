@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember-cli-test-loader/test-loader.js
