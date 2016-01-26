@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tmp/coffee_script_filter-input_base_path-1qDcpLsw.tmp/0/frontend/components/infinity-loader.js

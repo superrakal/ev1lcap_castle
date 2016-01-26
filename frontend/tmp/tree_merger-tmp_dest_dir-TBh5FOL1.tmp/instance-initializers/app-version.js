@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tmp/tree_merger-tmp_dest_dir-ZbF1roWB.tmp/instance-initializers/app-version.js

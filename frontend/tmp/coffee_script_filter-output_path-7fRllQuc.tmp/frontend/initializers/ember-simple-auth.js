@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/node_modules/ember-simple-auth/app/initializers/ember-simple-auth.js

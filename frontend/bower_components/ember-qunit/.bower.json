@@ -1,0 +1,25 @@
+{
+  "name": "ember-qunit",
+  "version": "0.4.18",
+  "main": "ember-qunit.js",
+  "authors": [
+    "Stefan Penner",
+    "Ryan Florence",
+    "Robert Jackson",
+    "Dan Gebhardt"
+  ],
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/rwjblue/ember-qunit-builds",
+  "_release": "0.4.18",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.18",
+    "commit": "f1cfa16dffbc23c4f63c3d7acbd320a160bbc236"
+  },
+  "_source": "git://github.com/rwjblue/ember-qunit-builds.git",
+  "_target": "~0.4.18",
+  "_originalSource": "ember-qunit"
+}

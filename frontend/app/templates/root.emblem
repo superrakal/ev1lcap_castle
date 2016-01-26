@@ -1,0 +1,28 @@
+= each model as |article|
+  article.post
+    header
+      .title
+        h2
+          = link-to 'article' article.id
+            = article.title
+        p
+          = article.subtitle
+      .meta
+        time.published
+          = article.formattedCreatedAt
+    = link-to 'article' article.id class='image featured'
+      img src=article.image
+    p
+      = article.preview_text
+    footer
+      ul.actions
+        li
+          = link-to 'article' article.id class='button big'
+            |Читать далее
+      ul.stats
+        li
+          = link-to 'root' (query-params category=article.category)
+            = article.category
+
+= infinity-loader infinityModel=model loadingText="Идет подгрузка данных..." loadedText="Все данные подгружены"
+

@@ -1,0 +1,67 @@
+#wrapper
+  header#header
+    h1
+      a href="/"  Ev1lCap Castle
+  #main
+    = outlet
+  section#sidebar
+    section#intro
+      a.logo href="/"
+        .avatar
+      header
+        h2 Егор Топольняк
+    section
+      .mini-posts
+        article.mini-post
+          header
+            h3
+              = link-to 'root' (query-params category='Мысли')
+                |Мысли
+            time.published Показать все посты категории "Мысли"
+          = link-to 'root' (query-params category='Мысли') class='image'
+            .img.thinking
+        article.mini-post
+          header
+            h3
+              = link-to 'root' (query-params category='Хобби')
+                |Хобби
+            time.published Показать все посты категории "Хобби"
+          = link-to 'root' (query-params category='Хобби') class='image'
+            .img.hobby
+        article.mini-post
+          header
+            h3
+              = link-to 'root' (query-params category='Учеба')
+                |Учеба
+            time.published Показать все посты категории "Учеба"
+          = link-to 'root' (query-params category='Учеба') class='image'
+            .img.study
+        article.mini-post
+          header
+            h3
+              = link-to 'root' (query-params category='Работа')
+                |Работа
+            time.published Показать все посты категории "Работа"
+          = link-to 'root' (query-params category='Работа') class='image'
+            .img.work
+    section.blurb
+      h2 Обо мне
+      p Студент НГУ, ФИТ.
+      p
+        |Занимаюсь веб-разработкой.
+        br
+        |Из хобби: фотография, велосипедные прогулки.
+    section#footer
+      ul.icons
+        li
+          a.fa-twitter href="https://twitter.com/topolnyak012"
+            span.label Twitter
+        li
+          a.fa-vk href="http://vk.com/nsu_topolnyak"
+            span.label VK
+        li
+          a.fa-instagram href="https://www.instagram.com/topol009/"
+            span.label Instagram
+        li
+          a.fa-envelope href="mailto:topolnyak012@gmail.com"
+            span.label Email

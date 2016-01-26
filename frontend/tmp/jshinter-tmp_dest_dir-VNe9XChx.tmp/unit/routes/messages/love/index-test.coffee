@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tests/unit/routes/messages/love/index-test.coffee

@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tests/unit/routes/root-test.coffee

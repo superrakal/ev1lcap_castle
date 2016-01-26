@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tests/integration/components/navigation-component-test.coffee

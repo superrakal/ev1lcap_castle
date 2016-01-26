@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/node_modules/active-model-adapter/addon/index.js

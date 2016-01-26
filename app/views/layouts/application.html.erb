@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+          <title>Ev1lcap Castle - Блог Егора Топольняка</title>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+          <meta name="description" content="Излагаю свои мысли, четко и ясно.">
+          <meta name="title" content="Ev1lcap Castle - Блог Егора Топольняка">
+          <%= stylesheet_link_tag    'application', media: 'all'%>
+          <%= javascript_include_tag 'application'%>
+          <%= include_ember_script_tags :frontend %>
+          <%= include_ember_stylesheet_tags :frontend %>
+          <%= csrf_meta_tags %>
+          <%= favicon_link_tag%>
+        </head>
+    <body>
+        <%= yield %>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/app/app.coffee

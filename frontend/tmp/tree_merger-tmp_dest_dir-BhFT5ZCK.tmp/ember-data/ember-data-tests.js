@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/funnel-output_path-CeT8IY0L.tmp/ember-data/ember-data-tests.js

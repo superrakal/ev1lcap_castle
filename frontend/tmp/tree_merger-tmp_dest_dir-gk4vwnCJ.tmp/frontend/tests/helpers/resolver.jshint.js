@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/funnel-output_path-AgI6KfXr.tmp/frontend/tests/helpers/resolver.jshint.js

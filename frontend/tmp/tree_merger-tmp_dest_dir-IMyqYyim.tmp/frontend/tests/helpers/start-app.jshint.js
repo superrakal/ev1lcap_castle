@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tmp/funnel-output_path-vwwY8ps4.tmp/frontend/tests/helpers/start-app.jshint.js

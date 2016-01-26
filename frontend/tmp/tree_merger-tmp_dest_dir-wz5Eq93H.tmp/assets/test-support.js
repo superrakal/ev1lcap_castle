@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/caching-writer-dest-dir_7eeABa.tmp/assets/test-support.js

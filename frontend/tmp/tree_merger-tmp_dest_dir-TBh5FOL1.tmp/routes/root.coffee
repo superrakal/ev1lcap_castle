@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/app/routes/root.coffee

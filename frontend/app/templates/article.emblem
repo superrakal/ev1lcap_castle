@@ -1,0 +1,15 @@
+article.post
+  header
+    .title
+      h2
+        = article.title
+      p
+        = article.subtitle
+    .meta
+      time.published
+        = article.formattedCreatedAt
+  a.image.featured
+    img src=article.image
+  p.text
+    = article.safeText
+

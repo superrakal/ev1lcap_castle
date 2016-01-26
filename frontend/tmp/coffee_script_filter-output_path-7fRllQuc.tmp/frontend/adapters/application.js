@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/app/adapters/application.js

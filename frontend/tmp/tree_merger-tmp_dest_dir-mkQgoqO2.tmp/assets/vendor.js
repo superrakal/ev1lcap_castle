@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/tmp/class-tmp_cache_dir-zaGJ4gyL.tmp/assets/vendor.js

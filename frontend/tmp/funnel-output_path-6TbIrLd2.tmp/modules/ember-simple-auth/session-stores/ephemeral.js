@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/blog/frontend/node_modules/ember-simple-auth/addon/session-stores/ephemeral.js
