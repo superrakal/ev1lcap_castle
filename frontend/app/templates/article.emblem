@@ -14,6 +14,9 @@ article.post
           = article.city
   a.image.featured
     img src=article.image
+  = if article.music_link
+    p.audio
+      audio-player src=article.music_link
   p.text
     = article.safeText
 

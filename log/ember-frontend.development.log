@@ -23684,3 +23684,1590 @@ SourcemapConcat (3)                           | 44ms (14 ms)
 TreeMerger (appAndDependencies) (1)           | 27ms                
 Concat: Test Support JS (1)                   | 24ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2737ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1586ms              
+Babel                                         | 200ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1586ms              
+Babel (5)                                     | 481ms (96 ms)       
+CoffeeScriptFilter (2)                        | 140ms (70 ms)       
+
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 490ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 92ms                
+TreeMerger (appAndDependencies)               | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Funnel: App JS Files (1)                      | 92ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 30ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 497ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+Funnel: App JS Files                          | 86ms                
+TreeMerger (appAndDependencies)               | 37ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+Funnel: App JS Files (1)                      | 86ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 37ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2281ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1615ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1615ms              
+CoffeeScriptFilter (2)                        | 119ms (59 ms)       
+
+file changed templates/article.emblem
+
+Build successful - 529ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+ES6: App Tree                                 | 81ms                
+TreeMerger (appAndDependencies)               | 47ms                
+Funnel: App JS Files                          | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+ES6: App Tree (1)                             | 81ms                
+TreeMerger (appAndDependencies) (1)           | 47ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
+file added templates/components
+file added templates/components/audio-player.hbs
+file added components
+file changed templates/components/audio-player.hbs
+file added components/audio-player.coffee
+file added integration/components/audio-player-test.coffee
+file changed integration/components/audio-player-test.coffee
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 26ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Babel (5)                                     | 38ms (7 ms)         
+Concat: Test Support JS (1)                   | 26ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file deleted templates/components/audio-player.hbs
+file added templates/components/audio-player.emblem
+File: frontend/templates/components/audio-player.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file deleted templates/components/audio-player.emblem
+file added templates/components/audio-player.hbs
+
+Build successful - 426ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Funnel: App JS Files                          | 84ms                
+Concat: Test Support JS                       | 25ms                
+TreeMerger (appAndDependencies)               | 23ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Funnel: App JS Files (1)                      | 84ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+TreeMerger (appAndDependencies) (1)           | 23ms                
+
+file added templates/components/audio-player.hbs___jb_bak___
+file deleted templates/components/audio-player.hbs___jb_bak___
+file added templates/components/audio-player.hbs___jb_old___
+file changed templates/components/audio-player.hbs
+file deleted templates/components/audio-player.hbs___jb_old___
+
+Build successful - 563ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 172ms               
+Funnel: App JS Files                          | 86ms                
+Concat: Test Support JS                       | 33ms                
+TreeMerger (appAndDependencies)               | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 172ms               
+Funnel: App JS Files (1)                      | 86ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+TreeMerger (appAndDependencies) (1)           | 33ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Funnel: App JS Files                          | 84ms                
+TreeMerger (appAndDependencies)               | 26ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Funnel: App JS Files (1)                      | 84ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 26ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 504ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 77ms                
+Concat: Test Support JS                       | 33ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 77ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 590ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 216ms               
+Funnel: App JS Files                          | 52ms                
+Concat: Test Support JS                       | 33ms                
+SourcemapConcat                               | 30ms                
+TreeMerger (appAndDependencies)               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 216ms               
+SourcemapConcat (3)                           | 55ms (18 ms)        
+Funnel: App JS Files (1)                      | 52ms                
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+TreeMerger (appAndDependencies) (1)           | 30ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2396ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1693ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1693ms              
+CoffeeScriptFilter (2)                        | 122ms (61 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2536ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1752ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1752ms              
+CoffeeScriptFilter (2)                        | 130ms (65 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2391ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1697ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1697ms              
+CoffeeScriptFilter (2)                        | 125ms (62 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2307ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1622ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1622ms              
+CoffeeScriptFilter (2)                        | 126ms (63 ms)       
+
+file changed components/audio-player.coffee
+
+Build successful - 730ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+Funnel: App JS Files                          | 104ms               
+Babel                                         | 62ms                
+TreeMerger (appAndDependencies)               | 51ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+Funnel: App JS Files (1)                      | 104ms               
+Babel (5)                                     | 67ms (13 ms)        
+SourcemapConcat (3)                           | 59ms (19 ms)        
+TreeMerger (appAndDependencies) (1)           | 51ms                
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+
+file changed components/audio-player.coffee
+
+Build successful - 629ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+Funnel: App JS Files                          | 122ms               
+Concat: Test Support JS                       | 47ms                
+SourcemapConcat                               | 36ms                
+SourcemapConcat                               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+Funnel: App JS Files (1)                      | 122ms               
+SourcemapConcat (3)                           | 73ms (24 ms)        
+Concat: Test Support JS (1)                   | 47ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 524ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 190ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 190ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file added components/audio-player.coffee___jb_old___
+file changed components/audio-player.coffee
+file deleted components/audio-player.coffee___jb_old___
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 182ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 182ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file added components/audio-player.coffee___jb_old___
+file changed components/audio-player.coffee
+file deleted components/audio-player.coffee___jb_old___
+
+Build successful - 487ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 30ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file changed components/audio-player.coffee
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 173ms               
+Funnel: App JS Files                          | 45ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 173ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 45ms                
+Concat: Test Support JS (1)                   | 27ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file changed templates/article.emblem
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 185ms               
+TreeMerger (appAndDependencies)               | 34ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 185ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 34ms                
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 569ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 190ms               
+Concat: Test Support JS                       | 39ms                
+Funnel: App JS Files                          | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 190ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Funnel: App JS Files (1)                      | 31ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file changed templates/article.emblem
+
+Build successful - 547ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 205ms               
+Funnel: App JS Files                          | 38ms                
+Concat: Test Support JS                       | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 205ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 38ms                
+Concat: Test Support JS (1)                   | 31ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 191ms               
+Funnel: App JS Files                          | 32ms                
+TreeMerger (appAndDependencies)               | 27ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 191ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file added components/audio-player.coffee___jb_old___
+file changed components/audio-player.coffee
+file deleted components/audio-player.coffee___jb_old___
+
+Build successful - 474ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 183ms               
+Funnel: App JS Files                          | 36ms                
+TreeMerger (appAndDependencies)               | 29ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 183ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+TreeMerger (appAndDependencies) (1)           | 29ms                
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file changed templates/article.emblem
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file deleted templates/components/audio-player.hbs
+file added templates/components/audio-player.emblem
+File: frontend/templates/components/audio-player.hbs
+Unclosed element `span` (on line 1).
+Error: Unclosed element `span` (on line 1).
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17342:15)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.BlockStatement (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17363:42)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17336:14)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Object.preprocess (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17237:46)
+  at compileSpec (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/components/audio-player.emblem___jb_bak___
+file deleted templates/components/audio-player.emblem___jb_bak___
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+File: frontend/templates/components/audio-player.hbs
+Unclosed element `span` (on line 1).
+Error: Unclosed element `span` (on line 1).
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17342:15)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.BlockStatement (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17363:42)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17336:14)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Object.preprocess (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17237:46)
+  at compileSpec (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+File: frontend/templates/components/audio-player.hbs
+Unclosed element `span` (on line 1).
+Error: Unclosed element `span` (on line 1).
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17342:15)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.BlockStatement (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17363:42)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Parser.exports.default.Program (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17336:14)
+  at Parser.acceptNode (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17278:27)
+  at Object.preprocess (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17237:46)
+  at compileSpec (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed templates/components/audio-player.emblem
+
+Build successful - 584ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 98ms                
+Concat: Test Support JS                       | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 98ms                
+SourcemapConcat (3)                           | 55ms (18 ms)        
+Funnel (35)                                   | 49ms (1 ms)         
+Concat: Test Support JS (1)                   | 35ms                
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file changed components/audio-player.coffee
+
+Build successful - 480ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Concat: App                                   | 72ms                
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Concat: App (1)                               | 72ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+
+file added components/audio-player.coffee___jb_old___
+file changed components/audio-player.coffee
+file deleted components/audio-player.coffee___jb_old___
+
+Build successful - 531ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+ES6: App Tree                                 | 56ms                
+Concat: Test Support JS                       | 48ms                
+SourcemapConcat                               | 37ms                
+Funnel: App JS Files                          | 35ms                
+TreeMerger (appAndDependencies)               | 29ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+SourcemapConcat (3)                           | 66ms (22 ms)        
+ES6: App Tree (1)                             | 56ms                
+Concat: Test Support JS (1)                   | 48ms                
+Funnel: App JS Files (1)                      | 35ms                
+TreeMerger (appAndDependencies) (1)           | 29ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 482ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 79ms                
+TreeMerger (appAndDependencies)               | 28ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 28ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/components/audio-player.emblem
+File: frontend/templates/components/audio-player.emblem (2)
+Expected _4BeginStatement or end of input but "\uEFEF" found.
+file changed templates/components/audio-player.emblem
+File: frontend/templates/components/audio-player.emblem (2)
+Expected _4BeginStatement or end of input but "\uEFEF" found.
+file added templates/components/audio-player.emblem___jb_bak___
+file deleted templates/components/audio-player.emblem___jb_bak___
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 169ms               
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 169ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file changed components/audio-player.coffee
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 176ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 176ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+Babel (5)                                     | 25ms (5 ms)         
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file changed components/audio-player.coffee
+
+Build successful - 666ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 241ms               
+Concat: Test Support JS                       | 50ms                
+Funnel: App JS Files                          | 45ms                
+Concat: App                                   | 34ms                
+TreeMerger (appAndDependencies)               | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 241ms               
+SourcemapConcat (3)                           | 57ms (19 ms)        
+Concat: Test Support JS (1)                   | 50ms                
+Funnel: App JS Files (1)                      | 45ms                
+Concat: App (1)                               | 34ms                
+TreeMerger (appAndDependencies) (1)           | 33ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+
+file changed templates/components/audio-player.emblem
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 86ms                
+Concat: Test Support JS                       | 26ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 86ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 78ms                
+SourcemapConcat                               | 28ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Concat: App                                   | 64ms                
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 26ms                
+TreeMerger (appAndDependencies)               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Concat: App (1)                               | 64ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 26ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file changed components/audio-player.coffee
+
+Build successful - 491ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file changed components/audio-player.coffee
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 171ms               
+Funnel: App JS Files                          | 39ms                
+TreeMerger (appAndDependencies)               | 31ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 171ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 39ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 31ms                
+Concat: Test Support JS (1)                   | 30ms                
+
+file added components/audio-player.coffee___jb_bak___
+file deleted components/audio-player.coffee___jb_bak___
+file added components/audio-player.coffee___jb_old___
+file changed components/audio-player.coffee
+file deleted components/audio-player.coffee___jb_old___
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 172ms               
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 172ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 27ms                
+CoffeeScriptFilter (2)                        | 23ms (11 ms)        
+
+file changed components/audio-player.coffee
+
+Build successful - 539ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 172ms               
+Concat: Test Support JS                       | 44ms                
+SourcemapConcat                               | 39ms                
+Concat: App                                   | 35ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support Suffix                   | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 172ms               
+SourcemapConcat (3)                           | 64ms (21 ms)        
+Concat: Test Support JS (1)                   | 44ms                
+Concat: App (1)                               | 35ms                
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support Suffix (1)               | 29ms                
+
+file changed components/audio-player.coffee
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 82ms                
+TreeMerger (appAndDependencies)               | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 39ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+
+file changed templates/article.emblem
+
+Build successful - 486ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 26ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1690ms              
+ES6: App Tree                                 | 125ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1690ms              
+CoffeeScriptFilter (2)                        | 134ms (67 ms)       
+ES6: App Tree (1)                             | 125ms               
+
+file changed templates/article.emblem
+
+Build successful - 573ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Concat: App                                   | 79ms                
+Concat: Test Support JS                       | 48ms                
+SourcemapConcat                               | 37ms                
+SourcemapConcat                               | 37ms                
+Funnel: App JS Files                          | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Concat: App (1)                               | 79ms                
+SourcemapConcat (3)                           | 77ms (25 ms)        
+Concat: Test Support JS (1)                   | 48ms                
+Funnel: App JS Files (1)                      | 36ms                
+
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 89ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 89ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 599ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 170ms               
+Funnel: App JS Files                          | 91ms                
+TreeMerger (appAndDependencies)               | 40ms                
+SourcemapConcat                               | 39ms                
+Concat: Test Support JS                       | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 170ms               
+Funnel: App JS Files (1)                      | 91ms                
+SourcemapConcat (3)                           | 66ms (22 ms)        
+TreeMerger (appAndDependencies) (1)           | 40ms                
+Concat: Test Support JS (1)                   | 34ms                
+
+file changed templates/article.emblem
+
+Build successful - 570ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 168ms               
+Concat: App                                   | 71ms                
+TreeMerger (appAndDependencies)               | 38ms                
+Funnel: App JS Files                          | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 168ms               
+Concat: App (1)                               | 71ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+TreeMerger (appAndDependencies) (1)           | 38ms                
+Funnel: App JS Files (1)                      | 33ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
+file changed templates/article.emblem
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 82ms                
+TreeMerger (appAndDependencies)               | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 30ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 553ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 187ms               
+Funnel: App JS Files                          | 37ms                
+TreeMerger (appAndDependencies)               | 30ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 187ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+TemplateCompiler (2)                          | 31ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 30ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed templates/article.emblem
+
+Build successful - 499ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 189ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 189ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/article.emblem___jb_bak___
+file changed templates/article.emblem___jb_bak___
+file added templates/article.emblem___jb_old___
+file deleted templates/article.emblem___jb_bak___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 571ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+Concat: Test Support JS                       | 49ms                
+Funnel: App JS Files                          | 44ms                
+SourcemapConcat                               | 34ms                
+Concat: Test Support Suffix                   | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 49ms                
+Funnel: App JS Files (1)                      | 44ms                
+Concat: Test Support Suffix (1)               | 29ms                
+
+file changed templates/article.emblem
+File: frontend/templates/article.hbs
+Parse error on line 1:
+...sic_link}" controls autoplay}}</p><p cla
+-----------------------^
+Expecting 'EQUALS', got 'ID'
+Error: Parse error on line 1:
+...sic_link}" controls autoplay}}</p><p cla
+-----------------------^
+Expecting 'EQUALS', got 'ID'
+  at Object.parseError (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:16280:23)
+  at Object.parse (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:16349:34)
+  at Object.parse (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:15934:41)
+  at Object.preprocess (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17236:73)
+  at compileSpec (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+File: frontend/templates/article.hbs
+Parse error on line 1:
+...music_link controls autoplay}}</p><p cla
+-----------------------^
+Expecting 'EQUALS', got 'ID'
+Error: Parse error on line 1:
+...music_link controls autoplay}}</p><p cla
+-----------------------^
+Expecting 'EQUALS', got 'ID'
+  at Object.parseError (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:16280:23)
+  at Object.parse (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:16349:34)
+  at Object.parse (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:15934:41)
+  at Object.preprocess (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:17236:73)
+  at compileSpec (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/article.emblem___jb_bak___
+file deleted templates/article.emblem___jb_bak___
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 494ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+ES6: App Tree                                 | 69ms                
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+ES6: App Tree (1)                             | 69ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/article.emblem___jb_bak___
+file deleted templates/article.emblem___jb_bak___
+file changed templates/article.emblem
+
+Build successful - 575ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 157ms               
+Funnel: App JS Files                          | 78ms                
+TreeMerger (appAndDependencies)               | 44ms                
+Concat: Test Support JS                       | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 157ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 44ms                
+Concat: Test Support JS (1)                   | 31ms                
+
+file changed templates/article.emblem
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 75ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 75ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file deleted templates/components/audio-player.emblem
+file deleted templates/components
+
+Build successful - 458ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Concat: App                                   | 58ms                
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 24ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Concat: App (1)                               | 58ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+
+file deleted components/audio-player.coffee
+ENOENT, no such file or directory '/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/coffee_script_filter-cache_path-aTKyK2in.tmp/frontend/components/audio-player.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/coffee_script_filter-cache_path-aTKyK2in.tmp/frontend/components/audio-player.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file deleted components
+
+Build successful - 496ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 209ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 209ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed templates/article.emblem
+
+Build successful - 529ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 167ms               
+SourcemapConcat                               | 42ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 167ms               
+SourcemapConcat (3)                           | 71ms (23 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 30ms                
+
+file added templates/article.emblem___jb_bak___
+file deleted templates/article.emblem___jb_bak___
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 603ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 119ms               
+TreeMerger (appAndDependencies)               | 45ms                
+SourcemapConcat                               | 33ms                
+SourcemapConcat                               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 119ms               
+SourcemapConcat (3)                           | 67ms (22 ms)        
+TreeMerger (appAndDependencies) (1)           | 45ms                
+
+file added components
+file added templates/components
+file added components/audio-player.coffee
+
+Build successful - 463ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 73ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file added templates/components/audio-player.emblem
+File: frontend/templates/components/audio-player.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/article.emblem
+File: frontend/templates/components/audio-player.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 165ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 165ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 165ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 165ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed templates/components/audio-player.emblem
+
+Build successful - 509ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 147ms               
+Funnel: App JS Files                          | 73ms                
+Concat: Test Support JS                       | 30ms                
+TreeMerger (appAndDependencies)               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 147ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+TreeMerger (appAndDependencies) (1)           | 30ms                
+
+file added templates/components/audio-player.emblem___jb_old___
+file changed templates/components/audio-player.emblem
+file deleted templates/components/audio-player.emblem___jb_old___
+
+Build successful - 654ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 255ms               
+Funnel: App JS Files                          | 57ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 255ms               
+SourcemapConcat (3)                           | 60ms (20 ms)        
+Funnel: App JS Files (1)                      | 57ms                
+
+file changed templates/components/audio-player.emblem
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 167ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 31ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 167ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 31ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+file changed templates/article.emblem
+file added templates/components/audio-player.emblem___jb_bak___
+file deleted templates/components/audio-player.emblem___jb_bak___
+file changed templates/components/audio-player.emblem
+
+Build successful - 568ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+Funnel: App JS Files                          | 74ms                
+TreeMerger (appAndDependencies)               | 36ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+Funnel: App JS Files (1)                      | 74ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 36ms                
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed templates/article.emblem
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 169ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 169ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 28ms                
+TemplateCompiler (2)                          | 27ms (13 ms)        
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file changed templates/components/audio-player.emblem
+
+Build successful - 533ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 177ms               
+Concat: App                                   | 64ms                
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 177ms               
+Concat: App (1)                               | 64ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/article.emblem
+
+Build successful - 487ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 27ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file added templates/article.emblem___jb_old___
+file changed templates/article.emblem
+file deleted templates/article.emblem___jb_old___
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 85ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 85ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+

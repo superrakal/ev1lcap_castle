@@ -42,7 +42,7 @@ module Api
 
       private
         def article_params
-          params.require(:article).permit :text, :preview_text, :title, :subtitle, :category, :image, :city
+          params.require(:article).permit :text, :preview_text, :title, :subtitle, :category, :image, :city, :music_link
         end
 
         def set_article

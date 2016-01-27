@@ -8,6 +8,7 @@ Article = DS.Model.extend
   category:     DS.attr 'string'
   image:        DS.attr 'string'
   city:         DS.attr 'string'
+  music_link:   DS.attr 'string'
   created_at:   DS.attr 'date'
 
   formattedCreatedAt: (->

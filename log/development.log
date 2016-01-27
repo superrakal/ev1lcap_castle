@@ -40079,3 +40079,1186 @@ Processing by Api::V1::ArticlesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3343ms
   MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3414ms
 Completed 200 OK in 8ms (Views: 4.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-01-27 14:42:40 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 7ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:42:46 +0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 7070ms (Views: 7068.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-01-27 14:44:48 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:44:48 +0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:44:54 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nrRFaWLiH5Fa5YMRlXwbxFMZOEwDDoN4XXdu9AvyW5IT9mJRle4gdqTlk0AvsF7MkMd+MdBk7XLxXRNXVyJkqg==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8380ms
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:70438800 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/query.rb:128:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:191:in `block in first_with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:190:in `first_with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:199:in `block (2 levels) in first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:545:in `with_sorting'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:198:in `block in first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:457:in `try_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:197:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/authenticatable.rb:242:in `find_for_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/strategies/base.rb:53:in `_run!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:358:in `block in _run_strategies_for'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:353:in `each'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:353:in `_run_strategies_for'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:323:in `_perform_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:127:in `authenticate!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/app/controllers/devise/sessions_controller.rb:17:in `create'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:198:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:137:in `process'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionview-4.2.3/lib/action_view/rendering.rb:30:in `process'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal.rb:196:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal.rb:237:in `block in action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:45:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/mapper.rb:49:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:821:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/ember-cli-rails-0.4.3/lib/ember-cli/middleware.rb:14:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-pjax-0.8.0/lib/rack/pjax.rb:12:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:35:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:34:in `catch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:34:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/conditionalget.rb:38:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/remotipart-1.2.1/lib/remotipart/middleware.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/flash.rb:260:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:84:in `run_callbacks'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:84:in `protected_app_call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:79:in `better_errors_call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:57:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9117ms
+Completed 500 Internal Server Error in 255ms
+
+Moped::Errors::ConnectionFailure - Could not connect to a primary node for replica set #<Moped::Cluster:70438800 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>:
+  moped (2.0.7) lib/moped/cluster.rb:254:in `with_primary'
+  moped (2.0.7) lib/moped/read_preference/primary.rb:55:in `block in with_node'
+  moped (2.0.7) lib/moped/retryable.rb:30:in `call'
+  moped (2.0.7) lib/moped/retryable.rb:30:in `with_retry'
+  moped (2.0.7) lib/moped/retryable.rb:39:in `rescue in with_retry'
+  moped (2.0.7) lib/moped/retryable.rb:29:in `with_retry'
+  moped (2.0.7) lib/moped/read_preference/primary.rb:54:in `with_node'
+  moped (2.0.7) lib/moped/query.rb:128:in `first'
+  mongoid (4.0.2) lib/mongoid/query_cache.rb:191:in `block in first_with_cache'
+  mongoid (4.0.2) lib/mongoid/query_cache.rb:135:in `with_cache'
+  mongoid (4.0.2) lib/mongoid/query_cache.rb:190:in `first_with_cache'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:199:in `block (2 levels) in first'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:545:in `with_sorting'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:198:in `block in first'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:457:in `try_cache'
+  mongoid (4.0.2) lib/mongoid/contextual/mongo.rb:197:in `first'
+  mongoid (4.0.2) lib/mongoid/contextual.rb:20:in `first'
+  orm_adapter (0.5.0) lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'
+  devise (3.5.3) lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'
+  devise (3.5.3) lib/devise/models/authenticatable.rb:242:in `find_for_authentication'
+  devise (3.5.3) lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'
+  devise (3.5.3) lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'
+  warden (1.2.4) lib/warden/strategies/base.rb:53:in `_run!'
+  warden (1.2.4) lib/warden/proxy.rb:358:in `block in _run_strategies_for'
+  warden (1.2.4) lib/warden/proxy.rb:353:in `each'
+  warden (1.2.4) lib/warden/proxy.rb:353:in `_run_strategies_for'
+  warden (1.2.4) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.4) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (3.5.3) app/controllers/devise/sessions_controller.rb:17:in `create'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/mapper.rb:49:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.3) lib/ember-cli/middleware.rb:14:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/b025fcf542aff12c/variables" for 127.0.0.1 at 2016-01-27 14:44:54 +0600
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:45:04 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nrRFaWLiH5Fa5YMRlXwbxFMZOEwDDoN4XXdu9AvyW5IT9mJRle4gdqTlk0AvsF7MkMd+MdBk7XLxXRNXVyJkqg==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: Retrying connection attempt 1 more time(s), nodes is [], seeds are [<Moped::Node resolved_address="127.0.0.1:27017">], cluster is #<Moped::Cluster:70438800 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>. Error backtrace is ["/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/cluster.rb:254:in `with_primary'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:55:in `block in with_node'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/retryable.rb:30:in `with_retry'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/read_preference/primary.rb:54:in `with_node'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/moped-2.0.7/lib/moped/query.rb:128:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:191:in `block in first_with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:135:in `with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/query_cache.rb:190:in `first_with_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:199:in `block (2 levels) in first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:545:in `with_sorting'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:198:in `block in first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:457:in `try_cache'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual/mongo.rb:197:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/mongoid-4.0.2/lib/mongoid/contextual.rb:20:in `first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/orm_adapter-0.5.0/lib/orm_adapter/adapters/mongoid.rb:28:in `find_first'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/authenticatable.rb:246:in `find_first_by_auth_conditions'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/authenticatable.rb:242:in `find_for_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/models/database_authenticatable.rb:165:in `find_for_database_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/lib/devise/strategies/database_authenticatable.rb:8:in `authenticate!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/strategies/base.rb:53:in `_run!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:358:in `block in _run_strategies_for'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:353:in `each'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:353:in `_run_strategies_for'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:323:in `_perform_authentication'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/proxy.rb:127:in `authenticate!'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/devise-3.5.3/app/controllers/devise/sessions_controller.rb:17:in `create'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:198:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rendering.rb:10:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:20:in `block in process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:115:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:503:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:88:in `run_callbacks'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/callbacks.rb:19:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rescue.rb:29:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `block in instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/notifications.rb:164:in `instrument'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/abstract_controller/base.rb:137:in `process'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionview-4.2.3/lib/action_view/rendering.rb:30:in `process'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal.rb:196:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_controller/metal.rb:237:in `block in action'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:76:in `dispatch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:45:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/mapper.rb:49:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:43:in `block in serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `each'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/journey/router.rb:30:in `serve'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:821:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/ember-cli-rails-0.4.3/lib/ember-cli/middleware.rb:14:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-pjax-0.8.0/lib/rack/pjax.rb:12:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:35:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:34:in `catch'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/warden-1.2.4/lib/warden/manager.rb:34:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/conditionalget.rb:38:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/remotipart-1.2.1/lib/remotipart/middleware.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/flash.rb:260:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:560:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:84:in `run_callbacks'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/reloader.rb:73:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:84:in `protected_app_call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:79:in `better_errors_call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/better_errors-2.1.1/lib/better_errors/middleware.rb:57:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/quiet_assets-1.1.0/lib/quiet_assets.rb:27:in `call_with_quiet_assets'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'", "/home/egor/.rvm/gems/ruby-2.1.6/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'", "/home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'"]. runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7365ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"email"=>"topolnyak012@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 53.8321ms
+Completed 401 Unauthorized in 373ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nrRFaWLiH5Fa5YMRlXwbxFMZOEwDDoN4XXdu9AvyW5IT9mJRle4gdqTlk0AvsF7MkMd+MdBk7XLxXRNXVyJkqg==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  Rendered devise/sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 22.2ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:45:06 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6q4SYM7yzMt/Ryx6gOQVqblI09mLe7/jJi8tqJdQllZn7DVYOf7zLIFHPCs6KFChepaVpFgR0emKBVALy4Cpbg==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3819ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"email"=>"topolnyak012@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4075ms
+Completed 401 Unauthorized in 62ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6q4SYM7yzMt/Ryx6gOQVqblI09mLe7/jJi8tqJdQllZn7DVYOf7zLIFHPCs6KFChepaVpFgR0emKBVALy4Cpbg==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  Rendered devise/sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 23.5ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:45:11 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bhmh8MP2OHDSloND93PR8xZnm9aXykS79ZfBgP+kmbCLW4bINPoHlyyWkxJNv5T71bndq0SgKrFZvbwjo3SmiA==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"email"=>"topolnyak012@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3955ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=ev1lcap_castle_development collection=users selector={"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')} update={"$set"=>{"last_sign_in_at"=>2016-01-26 18:05:42 UTC, "current_sign_in_at"=>2016-01-27 08:45:11 UTC, "sign_in_count"=>3}} flags=[]
+                         COMMAND      database=ev1lcap_castle_development command={:getlasterror=>1, :w=>1} runtime: 0.4258ms
+Redirected to http://localhost:3000/admin/
+Completed 302 Found in 66ms
+
+
+Started GET "/admin/" for 127.0.0.1 at 2016-01-27 14:45:11 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3531ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.3240ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2782ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"users", :query=>{}} runtime: 0.1569ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (6.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (2.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (5.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (1.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (3.2ms)
+Completed 200 OK in 443ms (Views: 358.8ms)
+
+
+Started GET "/admin/article?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-01-27 14:45:13 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2871ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2050ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4396ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.2959ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3502ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (25.3ms)
+Completed 200 OK in 39ms (Views: 34.2ms)
+
+
+Started GET "/admin/article/56a7836cd3054d17c4000000/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-01-27 14:45:15 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article", "id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4368ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3119ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_ck_editor.html.haml (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_file_upload.html.haml (3.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_submit_buttons.html.haml (2.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (29.8ms)
+Completed 200 OK in 45ms (Views: 40.1ms)
+
+
+Started PUT "/admin/article/56a7836cd3054d17c4000000/edit" for 127.0.0.1 at 2016-01-27 14:45:19 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bZhXSPqz1BK+4nD4Mj2T79+/FABPNocAVo6Wbo1A92G31mjRsob+DQ1Ob5m9Z/zR8P+mjQW63dkE+/rF8hU+bg==", "article"=>{"title"=>"Тест", "subtitle"=>"Тест", "preview_text"=>"123213213123213", "text"=>"<p>цвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцв</p>\r\n", "category"=>"Работа", "city"=>"Новосибирск", "music_link"=>"https://dl.mp3poisk.me/aHR0cDovL2YubXAzcG9pc2subWUvbXAzLzAwMi82MTUvOTU3LzI2MTU5NTcubXAzP0NvbGRwbGF5IC0gQWR2ZW50dXJlIG9mIGEgTGlmZXRpbWU="}, "return_to"=>"http://localhost:3000/admin/article", "_save"=>"", "model_name"=>"article", "id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4318ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4253ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} update={"$set"=>{"music_link"=>"https://dl.mp3poisk.me/aHR0cDovL2YubXAzcG9pc2subWUvbXAzLzAwMi82MTUvOTU3LzI2MTU5NTcubXAzP0NvbGRwbGF5IC0gQWR2ZW50dXJlIG9mIGEgTGlmZXRpbWU=", "updated_at"=>2016-01-27 08:45:19 UTC}} flags=[]
+                         COMMAND      database=ev1lcap_castle_development command={:getlasterror=>1, :w=>1} runtime: 4.6608ms
+Redirected to http://localhost:3000/admin/article
+Completed 302 Found in 15ms
+
+
+Started GET "/admin/article" for 127.0.0.1 at 2016-01-27 14:45:19 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"article"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3164ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.5519ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.2704ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2425ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (12.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (2.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (1.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (2.4ms)
+Completed 200 OK in 105ms (Views: 101.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-01-27 14:45:21 +0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SoSIgNVqdouDCciEHuRIZhJuaWxS5TVV+gm8khnA2IiQyrcZnV9clDCl1+WRvidYPS7b4Rhpb4yofNA5ZpURhw=="}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4377ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-27 14:45:21 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (111.7ms)
+Completed 200 OK in 135ms (Views: 135.2ms)
+
+
+Started GET "/api/v1/articles?page=1&per_page=10" for 127.0.0.1 at 2016-01-27 14:45:22 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.4661ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.5665ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.4442ms
+Completed 200 OK in 11ms (Views: 5.7ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:45:24 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3269ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:45:29 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 21.2ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:45:30 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3326ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-01-27 14:47:14 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:47:14 +0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 20.7ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:47:20 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1oPuyODcEn0zompdbrjIkBiy51qQzEMKDa2BDemLIsPq0V6vs4O/A+tQ447l4qsnREdCw4/dRL+iNOl7NmEDTA==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2716ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"email"=>"topolnyak012@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3221ms
+Completed 401 Unauthorized in 61ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1oPuyODcEn0zompdbrjIkBiy51qQzEMKDa2BDemLIsPq0V6vs4O/A+tQ447l4qsnREdCw4/dRL+iNOl7NmEDTA==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  Rendered devise/sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 20.7ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-01-27 14:47:24 +0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FjRE2LqjywbF39oMJwmvnvB2//7luMazABCxgkvjNQcqZvS/6fxmeB0tU9+sU8wprINaZ/qpwQavidn0lAkUiA==", "user"=>{"email"=>"topolnyak012@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Войти"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"email"=>"topolnyak012@gmail.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5150ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=ev1lcap_castle_development collection=users selector={"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')} update={"$set"=>{"last_sign_in_at"=>2016-01-27 08:45:11 UTC, "current_sign_in_at"=>2016-01-27 08:47:24 UTC, "sign_in_count"=>4}} flags=[]
+                         COMMAND      database=ev1lcap_castle_development command={:getlasterror=>1, :w=>1} runtime: 0.4046ms
+Redirected to http://localhost:3000/admin/
+Completed 302 Found in 84ms
+
+
+Started GET "/admin/" for 127.0.0.1 at 2016-01-27 14:47:24 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3374ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.1853ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2880ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"users", :query=>{}} runtime: 0.1557ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (3.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (2.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (0.8ms)
+Completed 200 OK in 90ms (Views: 86.7ms)
+
+
+Started GET "/admin/article?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-01-27 14:47:26 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3943ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3726ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.3047ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2511ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (57.4ms)
+Completed 200 OK in 68ms (Views: 62.1ms)
+
+
+Started GET "/admin/article/56a7836cd3054d17c4000000/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-01-27 14:47:27 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"article", "id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6030ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3500ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_ck_editor.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_file_upload.html.haml (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/_submit_buttons.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (14.9ms)
+Completed 200 OK in 26ms (Views: 20.6ms)
+
+
+Started PUT "/admin/article/56a7836cd3054d17c4000000/edit" for 127.0.0.1 at 2016-01-27 14:47:31 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qSCC2/tX7MssAWN5/04irUoK2lKEdGguj9RtJk9bRHc8zBJAzUnP0/znR00SsT3lv4Rvu7eZfRtyBUIjRpy2Pw==", "article"=>{"title"=>"Тест", "subtitle"=>"Тест", "preview_text"=>"123213213123213", "text"=>"<p>цвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцвцвсцувуцвуцв</p>\r\n", "category"=>"Работа", "city"=>"Новосибирск", "music_link"=>"http://cdndl.zaycev.net/108133/3798977/wiz_khalifa_-_see_you_again_ft._charlie_puth_(zaycev.net).mp3"}, "return_to"=>"http://localhost:3000/admin/article", "_save"=>"", "model_name"=>"article", "id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3514ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1969ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2656ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} update={"$set"=>{"music_link"=>"http://cdndl.zaycev.net/108133/3798977/wiz_khalifa_-_see_you_again_ft._charlie_puth_(zaycev.net).mp3", "updated_at"=>2016-01-27 08:47:31 UTC}} flags=[]
+                         COMMAND      database=ev1lcap_castle_development command={:getlasterror=>1, :w=>1} runtime: 0.3366ms
+Redirected to http://localhost:3000/admin/article
+Completed 302 Found in 7ms
+
+
+Started GET "/admin/article" for 127.0.0.1 at 2016-01-27 14:47:31 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"article"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2961ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.6518ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.3166ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2832ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (14.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (3.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (2.3ms)
+Completed 200 OK in 103ms (Views: 99.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-01-27 14:47:33 +0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"stCJFrjXCq1iWoU8gmLFKPgdBODE2oLKPfZ/oWrmEBonPBmNjskptbK8oQhvndpgDZOxCfc3l//AJ1CkYyHiUg=="}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('56a7834cd3054d181d000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3135ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-27 14:47:33 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 20.2ms)
+
+
+Started GET "/api/v1/articles?page=1&per_page=10" for 127.0.0.1 at 2016-01-27 14:47:33 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3598ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3126ms
+Completed 200 OK in 6ms (Views: 2.7ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:47:35 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3066ms
+Completed 200 OK in 4ms (Views: 1.1ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:47:36 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 23.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:47:36 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2816ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2251ms
+Completed 200 OK in 5ms (Views: 1.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:48:40 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:48:40 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3965ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2851ms
+Completed 200 OK in 5ms (Views: 1.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:48:57 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (8.6ms)
+Completed 200 OK in 6384ms (Views: 6383.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:49:09 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6652ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2866ms
+Completed 200 OK in 10ms (Views: 2.9ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:49:57 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:49:58 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3738ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2570ms
+Completed 200 OK in 6ms (Views: 1.8ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:50:11 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.6ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:50:11 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2763ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2189ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:55:45 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (9.1ms)
+Completed 200 OK in 6738ms (Views: 6737.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:56:38 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (9.7ms)
+Completed 200 OK in 6351ms (Views: 6350.7ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:57:42 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (9.0ms)
+Completed 200 OK in 6314ms (Views: 6313.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:57:54 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 24ms (Views: 23.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:57:54 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8333ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3757ms
+Completed 200 OK in 13ms (Views: 4.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:58:39 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 6521ms (Views: 6520.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:58:51 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7322ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3204ms
+Completed 200 OK in 8ms (Views: 2.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:59:35 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 57.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:59:36 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3073ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2260ms
+Completed 200 OK in 5ms (Views: 1.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:59:43 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.6ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 14:59:43 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3777ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2275ms
+Completed 200 OK in 6ms (Views: 2.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:00:21 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.6ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:00:22 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3119ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2222ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:01:00 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 57ms (Views: 56.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:01:01 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 129.6060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3831ms
+Completed 200 OK in 135ms (Views: 1.6ms)
+
+
+Started GET "/music.mp3" for 127.0.0.1 at 2016-01-27 15:01:01 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"music.mp3"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms)
+
+
+Started GET "/music.mp3" for 127.0.0.1 at 2016-01-27 15:01:01 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"music.mp3"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:00 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:00 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3169ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2463ms
+Completed 200 OK in 5ms (Views: 1.8ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:32 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.7ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:33 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4044ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3233ms
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:51 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.6ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:02:51 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4106ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3667ms
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:03:15 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 42.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:03:15 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4380ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3288ms
+Completed 200 OK in 5ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:06:06 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:06:06 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2937ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2067ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:08:28 +0600
+
+EmberCli::App::BuildError - EmberCLI app "frontend" has failed to build:
+
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:08:41 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:08:41 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3836ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3414ms
+Completed 200 OK in 6ms (Views: 1.8ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:29 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:30 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2828ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2317ms
+Completed 200 OK in 5ms (Views: 1.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:32 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:32 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3438ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:36 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:10:37 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3505ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2038ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:11:21 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 43.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:11:22 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3114ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2205ms
+Completed 200 OK in 5ms (Views: 1.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:11:33 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 20ms (Views: 19.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:11:35 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3207ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2465ms
+Completed 200 OK in 5ms (Views: 1.6ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:12:05 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:12:06 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3035ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2224ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:00 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 49.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:01 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4244ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7360ms
+Completed 200 OK in 9ms (Views: 3.9ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:15 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:16 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3567ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2401ms
+Completed 200 OK in 5ms (Views: 1.7ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:55 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 98.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:13:55 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4058ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2894ms
+Completed 200 OK in 6ms (Views: 1.7ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:04 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 22.3ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:05 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3319ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2391ms
+Completed 200 OK in 6ms (Views: 2.4ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:11 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 65.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:11 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3119ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2210ms
+Completed 200 OK in 5ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:19 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:14:19 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3462ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2885ms
+Completed 200 OK in 7ms (Views: 2.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:15:24 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.7ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:15:30 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3181ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2491ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:18:40 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (9.8ms)
+Completed 200 OK in 6741ms (Views: 6741.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:18:52 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8464ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3119ms
+Completed 200 OK in 10ms (Views: 3.1ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:19:47 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:19:48 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2880ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2029ms
+Completed 200 OK in 5ms (Views: 1.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:14 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 123.3ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:15 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4020ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3805ms
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:44 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:45 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3002ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2241ms
+Completed 200 OK in 6ms (Views: 1.6ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:59 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:20:59 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4056ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2904ms
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:21:24 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:21:25 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3054ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:23:12 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.5ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:23:12 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3264ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2191ms
+Completed 200 OK in 5ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:23:36 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 71.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:23:36 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2761ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1957ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:26:06 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.8ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:26:07 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3071ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2341ms
+Completed 200 OK in 5ms (Views: 1.6ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:27:45 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:27:45 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4601ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3276ms
+Completed 200 OK in 6ms (Views: 1.6ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:05 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:05 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3705ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2801ms
+Completed 200 OK in 6ms (Views: 1.8ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:38 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:38 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2854ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2029ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:55 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 58.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:28:56 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3881ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2792ms
+Completed 200 OK in 6ms (Views: 2.0ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:19 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.6ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:19 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3738ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2964ms
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:35 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 43.1ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:36 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3107ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:42 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.9ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:29:42 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3958ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3314ms
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:30:11 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 439ms (Views: 439.2ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:30:12 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3598ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2694ms
+Completed 200 OK in 5ms (Views: 1.5ms)
+
+
+Started GET "/article/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:31:08 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"article/56a7836cd3054d17c4000000"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 39.3ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-01-27 15:31:09 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3788ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2606ms
+Completed 200 OK in 5ms (Views: 1.3ms)

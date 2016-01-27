@@ -26,6 +26,7 @@ RailsAdmin.config do |config|
       field :category
       field :city
       field :image
+      field :music_link
     end
   end
 end

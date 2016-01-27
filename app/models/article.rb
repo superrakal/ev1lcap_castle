@@ -9,6 +9,7 @@ class Article
   field :preview_text
   field :category
   field :city
+  field :music_link
 
   has_mongoid_attached_file :image,
                             :styles => {

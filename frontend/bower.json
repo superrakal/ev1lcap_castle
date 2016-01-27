@@ -11,6 +11,7 @@
     "moment": "~2.10.6",
     "ember-qunit": "~0.4.18",
     "qunit": "~1.20.0",
-    "jquery.nicescroll": "~3.6.6"
+    "jquery.nicescroll": "~3.6.6",
+    "ember-audio": "~1.0.4"
   }
 }
