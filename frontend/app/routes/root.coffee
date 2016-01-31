@@ -1,7 +1,8 @@
 `import Ember from 'ember'`
 `import InfinityRoute from "ember-infinity/mixins/route"`
+`import ResetScrollMixin from '../mixins/reset-scroll'`
 
-RootRoute = Ember.Route.extend InfinityRoute,
+RootRoute = Ember.Route.extend InfinityRoute, ResetScrollMixin,
 
   queryParams:
     category:

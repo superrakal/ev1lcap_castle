@@ -41377,3 +41377,43 @@ Processing by Api::V1::ArticlesController#show as JSON
   MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3080ms
   MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2394ms
 Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-01 02:27:01 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (8.6ms)
+Completed 200 OK in 7049ms (Views: 7048.5ms)
+
+
+Started GET "/api/v1/articles?page=1&per_page=10" for 127.0.0.1 at 2016-02-01 02:27:15 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7839ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 46.5965ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.4492ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3619ms
+Completed 200 OK in 58ms (Views: 4.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-02-01 02:27:27 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2997ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2065ms
+Completed 200 OK in 5ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/articles?page=1&per_page=10" for 127.0.0.1 at 2016-02-01 02:27:30 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=ev1lcap_castle_development command={:count=>"articles", :query=>{}} runtime: 0.3009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3023ms
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"$query"=>{}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2937ms
+Completed 200 OK in 5ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/articles/56a7836cd3054d17c4000000" for 127.0.0.1 at 2016-02-01 02:27:33 +0600
+Processing by Api::V1::ArticlesController#show as JSON
+  Parameters: {"id"=>"56a7836cd3054d17c4000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=ev1lcap_castle_development collection=articles selector={"_id"=>BSON::ObjectId('56a7836cd3054d17c4000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4084ms
+Completed 200 OK in 5ms (Views: 1.5ms)
