@@ -15,6 +15,8 @@ module Api
       end
 
       def show
+        @visitor = Visitor.find_or_create_by(ip: request.remote_ip)
+        @article.visits.create(visitor: @visitor)
         respond_with @article
       end
 

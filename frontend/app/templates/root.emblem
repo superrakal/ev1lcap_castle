@@ -27,6 +27,9 @@
         li
           = link-to 'root' (query-params category=article.category)
             = article.category
+        li
+          a href="#" class="icon fa-users"
+            = article.visitors_count
 
 = infinity-loader infinityModel=model loadingText="Идет подгрузка данных..." loadedText="Все данные подгружены"
 

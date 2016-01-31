@@ -11,6 +11,8 @@ class Article
   field :city
   field :music_link
 
+  embeds_many :visits
+
   has_mongoid_attached_file :image,
                             :styles => {
                                 :original => ['840x340', :jpg]
