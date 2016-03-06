@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/coffee_script_filter-input_base_path-LwzMRFHy.tmp/0/frontend/controllers/object.js

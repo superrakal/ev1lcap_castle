@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/caching-writer-dest-dir_SSathe.tmp/assets/frontend.js

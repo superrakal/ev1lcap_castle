@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/custom_replace-tmp_dest_dir-KjrAMROS.tmp/test-support-suffix.js

@@ -6,9 +6,10 @@ Article = DS.Model.extend
   text:           DS.attr 'string'
   preview_text:   DS.attr 'string'
   category:       DS.attr 'string'
-  image:          DS.attr 'string'
   city:           DS.attr 'string'
   music_link:     DS.attr 'string'
+  image_link:     DS.attr 'string'
+
   visitors_count: DS.attr 'number'
 
   created_at:     DS.attr 'date'

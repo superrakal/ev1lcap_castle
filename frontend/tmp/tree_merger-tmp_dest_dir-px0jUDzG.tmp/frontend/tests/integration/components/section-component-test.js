@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/babel-output_path-3gqC8AC3.tmp/frontend/tests/integration/components/section-component-test.js

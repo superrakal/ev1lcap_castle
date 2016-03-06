@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tmp/jshinter-tmp_dest_dir-IFDAxKpT.tmp/helpers/start-app.jshint.js

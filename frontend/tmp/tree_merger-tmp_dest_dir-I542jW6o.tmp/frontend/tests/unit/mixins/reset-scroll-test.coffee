@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/ev1lcap_castle/frontend/tests/unit/mixins/reset-scroll-test.coffee

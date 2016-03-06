@@ -13,7 +13,7 @@ article.post
           |&nbsp;
           = article.city
   a.image.featured
-    img src=article.image
+    img src=article.image_link
   = if article.music_link
     p.audio
       audio-player src=article.music_link
