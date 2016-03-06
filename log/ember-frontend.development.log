@@ -25485,3 +25485,151 @@ ES6: App Tree (1)                             | 83ms
 SourcemapConcat (3)                           | 43ms (14 ms)        
 Funnel: App JS Files (1)                      | 36ms                
 
+
+Missing bower packages: 
+Package: jquery.nicescroll
+  * Specified: ~3.6.6
+  * Installed: (not installed)
+
+Package: ember-audio
+  * Specified: ~1.0.4
+  * Installed: (not installed)
+
+Run `bower install` to install missing dependencies.
+
+Missing npm packages: 
+Package: ember-cli-html5-audio
+  * Specified: ~0.1.1
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+
+Missing npm packages: 
+Package: ember-cli-html5-audio
+  * Specified: ~0.1.1
+  * Installed: (not installed)
+
+Run `npm install` to install missing dependencies.
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building...
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+Error: Path or pattern "bower_components/jquery.nicescroll/jquery.nicescroll.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1019:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/ev1lcap_castle/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2279ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1618ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1618ms              
+CoffeeScriptFilter (2)                        | 118ms (59 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2387ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1705ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1705ms              
+CoffeeScriptFilter (2)                        | 125ms (62 ms)       
+

@@ -25,7 +25,7 @@ RailsAdmin.config do |config|
       field :text, :ck_editor
       field :category
       field :city
-      field :image
+      field :image_link
       field :music_link
     end
   end

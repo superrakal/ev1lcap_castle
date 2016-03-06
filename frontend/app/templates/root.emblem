@@ -15,7 +15,7 @@
             |&nbsp;
             = article.city
     = link-to 'article' article.id class='image featured'
-      img src=article.image
+      img src=article.image_link
     p
       = article.preview_text
     footer

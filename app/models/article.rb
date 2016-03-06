@@ -1,6 +1,5 @@
 class Article
   include Mongoid::Document
-  include Mongoid::Paperclip
   include Mongoid::Timestamps
 
   field :title
@@ -10,14 +9,7 @@ class Article
   field :category
   field :city
   field :music_link
+  field :image_link
 
   embeds_many :visits
-
-  has_mongoid_attached_file :image,
-                            :styles => {
-                                :original => ['840x340', :jpg]
-                            }
-  validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
-  validates_attachment_size :image, :less_than => 10.megabytes
-
 end
